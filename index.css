@@ -1,0 +1,15 @@
+@import "blocks/cards.css";
+@import "blocks/contact.css";
+@import "blocks/footer.css";
+@import "blocks/header.css";
+@import "blocks/reviews.css";
+@import "blocks/top.css";
+
+:root{
+    --color-dark: #161616;
+    --color-white: #FFFFFF;
+    --color-blue:  #5041FF;
+    --color-orange: #FF7940;
+    --color-yellow: #FAC838;
+    --color-grey: #6C6C6C
+}
