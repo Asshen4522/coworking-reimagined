@@ -14,28 +14,28 @@
 }
 
 .cards__cont-item:nth-child(1){
-    background-image: url(../Img/cards/Text_1.png);
+    background-image: url(../img/cards/Text_1.png);
     
 }
 
 .cards__cont-item:nth-child(2){
-    background-image: url(../Img/cards/Card_2.png);
+    background-image: url(../img/cards/Card_2.png);
 }
 
 .cards__cont-item:nth-child(3){
-    background-image: url(../Img/cards/Text_3.png);
+    background-image: url(../img/cards/Text_3.png);
 }
 
 .cards__cont-item:nth-child(4){
-    background-image: url(../Img/cards/Card_1.png);
+    background-image: url(../img/cards/Card_1.png);
 }
 
 .cards__cont-item:nth-child(5){
-    background-image: url(../Img/cards/Text_2.png);
+    background-image: url(../img/cards/Text_2.png);
 }
 
 .cards__cont-item:nth-child(6){
-    background-image: url(../Img/cards/Card_3.png);
+    background-image: url(../img/cards/Card_3.png);
 }
 
 .cards__text-h{

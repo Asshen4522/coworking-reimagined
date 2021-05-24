@@ -27,7 +27,7 @@
 
 .menu__icon{
     display: none;
-    background-image: url(Img\header\Menu_icon.svg);
+    background-image: url(../img/header/Menu_icon.svg);
 }
 
 @media screen and (max-width:1439px){
@@ -60,7 +60,7 @@
 
     .menu__icon{
         display: flex;
-        background-image: url(Img\header\Menu_icon.svg);
+        background-image: url(../img/header/Menu_icon.svg);
         width: 24px;
         height: 18px;
     }
