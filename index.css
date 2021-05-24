@@ -11,5 +11,104 @@
     --color-blue:  #5041FF;
     --color-orange: #FF7940;
     --color-yellow: #FAC838;
-    --color-grey: #6C6C6C
+    --color-grey: #6C6C6C;
+}
+
+body{
+    margin: 0;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: none;
+}
+
+
+button {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+.color__top{
+    background-color: var(--color-white);
+}
+
+.color__bottom{
+    background-color: var(--color-dark);
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.font-400{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-500{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.font-700{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo{
+    width: 154px;
+    height: 40px;
+}
+.Igor-ass{
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1439px){
+    /* Для 1280 */
+    .wrapper{
+        max-width: 1280px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:1279px){
+    /* Для 768 */
+    .wrapper{
+        max-width: 768px;
+        margin-left: 43px;
+        margin-right: 43px;
+    }
+}
+
+@media screen and (max-width:767px){
+    /* Для 320 */
+    .wrapper{
+        max-width: 320px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo{
+        width: 89px;
+        height: 24px;
+    }
 }
