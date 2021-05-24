@@ -1,9 +1,9 @@
-@import "blocks/cards.css";
-@import "blocks/contact.css";
-@import "blocks/footer.css";
-@import "blocks/header.css";
-@import "blocks/reviews.css";
-@import "blocks/top.css";
+@import "./blocks/cards.css";
+@import "./blocks/contact.css";
+@import "./blocks/footer.css";
+@import "./blocks/header.css";
+@import "./blocks/reviews.css";
+@import "./blocks/top.css";
 
 :root{
     --color-dark: #161616;
