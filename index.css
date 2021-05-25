@@ -38,6 +38,13 @@ button {
     cursor: pointer;
 }
 
+h1{
+    margin: 0;
+}
+
+p{
+    display: flex;
+}
 
 .color__top{
     background-color: var(--color-white);
