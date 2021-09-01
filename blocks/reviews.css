@@ -1,11 +1,87 @@
+.rewiews{
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 120px;
+}
+
+.rewiew__heart{
+    position: relative;
+}
+
+.rewiew__list{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.rewiew__list-elem{
+    margin-left: 60px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.rewiew__list-elem:first-child{
+    margin-left: 0;
+}
+
+.rewiew__list-elem-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rewiew-image{
+    border-radius: 100%;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.rewiew__arrow{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform:translateY(-50%);
+}
+
+.a-r{
+    color: var(--color-blue);
+}
+
 @media screen and (max-width:1439px){
     /* Для 1280 */
+    .rewiews{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
 }
 
 @media screen and (max-width:1279px){
     /* Для 768 */
+    .rewiew__arrow{
+        display: none;
+    }
+
+    .rewiews{
+        margin-left: 43px;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (max-width:767px){
     /* Для 320 */
+    .rewiews{
+        margin-left: 10px;
+    }
+
+    .rewiew__list-elem{
+        width: 290px;
+    }
+
+    .rewiew-image{
+        width: 80px;
+        height: 80px;
+    }
 }
