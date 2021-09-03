@@ -4,15 +4,8 @@
 @import "./blocks/header.css";
 @import "./blocks/reviews.css";
 @import "./blocks/top.css";
-
-:root{
-    --color-dark: #161616;
-    --color-white: #FFFFFF;
-    --color-blue:  #5041FF;
-    --color-orange: #FF7940;
-    --color-yellow: #FAC838;
-    --color-grey: #6C6C6C;
-}
+@import "./utilites.css";
+@import "./variables.css";
 
 body{
     margin: 0;
@@ -50,13 +43,7 @@ p{
     margin: 0;
 } 
 
-.color__top{
-    background-color: var(--color-white);
-}
 
-.color__bottom{
-    background-color: var(--color-dark);
-}
 
 .wrapper{
     max-width: 1440px;
@@ -64,33 +51,11 @@ p{
     margin-right: 100px
 }
 
-.font-400{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.font-500{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-}
-
-.font-700{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-}
-
 .logo{
     width: 154px;
     height: 40px;
 }
-.Igor-ass{
-    font-family: Reem Kufi;
-    font-style: normal;
-    font-weight: 400;
-}
+
 
 
 

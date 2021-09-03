@@ -1,0 +1,31 @@
+.background-light{
+    background-color: var(--color-white);
+}
+
+.background-dark{
+    background-color: var(--color-dark);
+}
+
+.font-400{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-500{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.font-700{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Igor-ass{
+    font-family: Reem Kufi;
+    font-style: normal;
+    font-weight: 400;
+}
