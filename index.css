@@ -6,6 +6,7 @@
 @import "./blocks/top.css";
 @import "./utilites.css";
 @import "./variables.css";
+@import "./blocks/form.css";
 
 body{
     margin: 0;
